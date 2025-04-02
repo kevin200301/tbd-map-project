@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.mapapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,19 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1Ijoia2V2aW4yMDAzMDEiLCJhIjoiY204emtrMjI0MDVhMTJscHF0dnN4bzhxNyJ9.-sdc8M2NEycwDv9aB-wDYw",
+          "RNMapboxMapsVersion": "11.0.0"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUseDescription": "Show current location on map."
         }
       ]
     ],
